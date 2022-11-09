@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+.logo img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+body {
+  font-family: "Outfit";
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  height: 800px;
+  /* max-width: 315px; */
+  background-color: hsl(217, 54%, 11%);
+  margin: auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 315px;
+}
+h1 {
+  color: white;
+  font-size: 1.25rem;
+}
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid #21344c;
+  align-items: center;
+}
+.information .eth-price {
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+  padding: 5px;
+}
+.information .time-text {
+  color: hsl(215, 51%, 70%);
+  padding: 5px;
+}
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 260px;
+  padding: 15px 0px;
+  align-items: center;
+}
+.user .avatar {
+  max-width: 100%;
+  width: 30px;
+  height: 30px;
+}
+.user p {
+  text-align: left;
+  font-size: 1rem;
+  padding: 0px 15px;
+  color: #8da6c7;
+}
+.user p strong {
+  color: white;
+  font-weight: 400;
+}
+/* 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
